@@ -1,7 +1,11 @@
+import './style.css'
 const Profile = ()=>{
   return (
-    <div>
-      <h1>Profile</h1>
+    <div className="card">
+      <div className="img"></div>
+      <div className="detals">
+        
+      </div>
     </div>
   )
 

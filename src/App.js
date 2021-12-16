@@ -1,13 +1,27 @@
 import './App.css';
 
-import {Search, Profile, Repositorio, Container} from './components'
+import {Search, Profile, Repositorio, Container, ListRepositorio} from './components'
 
 function App() {
   return (
     <Container>
       <Search />
       <Profile />
-      <Repositorio />
+      <ListRepositorio >
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+        <Repositorio />
+      </ListRepositorio>
+      
     </Container>
   );
 }

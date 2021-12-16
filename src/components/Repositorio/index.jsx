@@ -1,6 +1,7 @@
+import './style.css'
 const Repositorio = ()=> {
   return (
-    <div>
+    <div className="respositorio">
       <h1>Repositorio</h1>
     </div>
   )
