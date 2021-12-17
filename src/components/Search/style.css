@@ -1,0 +1,5 @@
+.search{
+  margin:10px;
+  width: calc(100% - 40px);
+  border: 1px solid red;
+}

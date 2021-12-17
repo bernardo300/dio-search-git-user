@@ -1,32 +1,21 @@
 .card{
-  width: 200px;
+  width: 420px;
   height: 200px;
   display: flex;
   margin: 10px;
-
-  -webkit-transition: all 0.4s ease-in 0.2s;
-      -moz-transition: all 0.4s ease-in 0.2s;
-        -o-transition: all 0.4s ease-in 0.2s;
-           transition: all 0.4s ease-in 0.2s;
 
   -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 		-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
 		box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.card:hover{
-  -webkit-transform:scale(1.1); 
-     -moz-transform:scale(1.1); 
-       -o-transform:scale(1.1);
-           transform:scale(1.1);
-}
 .img{
   background-color: brown;
-  height: 100%;
-  width: 50px;
+  height: 200px;
+  width: 200px;
 }
 .detals{
   height: 100%;
-  width: 100px;
+  width: 100%;
   background-color: green;
 }
